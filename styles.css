@@ -1,0 +1,47 @@
+body{
+    padding: 8vh;
+
+}
+
+form{
+    margin: auto;
+    text-align: center;
+    margin-bottom: 3vh;
+}
+
+form img{
+    width: 100px;
+    height: 100px;
+}
+
+input[type=text] {
+    padding: 2vh;
+    width: 300px;
+    border-radius: 1vh;
+}
+
+ul{
+    border-radius: 1vh;
+}
+
+li{
+    list-style: none;
+    padding: 1vh; 
+}
+
+.searchmatch{
+    font-weight: bolder;
+    color: rgb(13, 4, 34);
+    font-size: larger;
+}
+
+@media screen and (max-width: 380px) {
+    body{
+        padding: 2vh;
+    }
+    
+    input[type=text] {
+    width: 80%;
+    }
+    
+}
