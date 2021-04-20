@@ -1,54 +1,53 @@
-body{
-    padding: 8vh;
-    background-color: rgb(233, 235, 235);
+body {
+  padding: 8vh;
+  background-color: rgb(233, 235, 235);
 }
 
-form{
-    margin: auto;
-    text-align: center;
-    margin-bottom:5vh;
+form {
+  margin: auto;
+  text-align: center;
+  margin-bottom: 5vh;
 }
 
-form img{
-    width: 100px;
-    height: 100px;
+form img {
+  width: 100px;
+  height: 100px;
 }
 
-input[type=text] {
+input[type="text"] {
+  padding: 2vh;
+  width: 370px;
+  border-radius: 1vh;
+}
+
+.list {
+  border-radius: 1vh;
+  background-color: white;
+  box-shadow: 1vh 1vh 1vh grey;
+}
+
+.items {
+  font-size: 3vh;
+  border-radius: 1vh;
+}
+.items:hover {
+  background-color: rgb(159, 192, 192);
+  transform: scaleX(1.006);
+  box-shadow: 1vh 1vh 1vh;
+}
+
+.searchmatch {
+  font-weight: bolder;
+  color: rgb(24, 1, 77);
+  font-size: larger;
+}
+
+@media screen and (max-width: 430px) {
+  body {
     padding: 2vh;
-    width: 370px;
-    border-radius: 1vh;
-}
+  }
 
-.list{
-    border-radius: 1vh;
-    background-color: white;
-    box-shadow: 1vh 1vh 1vh grey;
-}
-
-.items{
-    font-size: 3vh;
-    border-radius: 1vh;
-}
-.items:hover{
-    background-color: rgb(159, 192, 192);
-    transform: scaleX(1.006);
-    box-shadow: 1vh 1vh 1vh;
-}
-
-.searchmatch{
-    font-weight: bolder;
-    color: rgb(24, 1, 77);
-    font-size: larger;
-}
-
-@media screen and (max-width: 400px) {
-    body{
-        padding: 2vh;
-    }
-    
-    input[type=text] {
+  input[type="text"] {
     width: 80%;
-    }
-    
+  }
 }
